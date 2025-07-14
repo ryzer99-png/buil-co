@@ -1,0 +1,8 @@
+{
+  "name": "buil-co",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite",
+  "id": "c5e10e2d"
+}
