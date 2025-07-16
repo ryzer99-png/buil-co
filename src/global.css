@@ -1,0 +1,66 @@
+/* ===== RESET Y CONFIGURACIÓN BASE ===== */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  --ion-background-color: var(--ion-color-dark-background);
+  --ion-text-color: var(--ion-color-light-text);
+  background-color: var(--ion-color-dark-background);
+  color: var(--ion-color-light-text);
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* ===== VARIABLES CSS PERSONALIZADAS ===== */
+:root {
+  /* Colores principales */
+  --ion-color-primary-gold: #B88E4A; /* Main gold from logo */
+  --ion-color-dark-background: #1A1A1A; /* Dark background from logo */
+  --ion-color-light-text: #F7E9D3; /* Light text for contrast */
+  --ion-color-secondary-gold: #D4AF37; /* A slightly different gold for accents */
+  --ion-color-dark-gray: #333333; /* A dark gray for subtle elements */
+  --ion-color-medium-gray: #555555; /* A medium gray for borders/dividers */
+
+  /* Valores RGB para Ionic */
+  --ion-color-primary-gold-rgb: 184,142,74;
+  --ion-color-dark-background-rgb: 26,26,26;
+  --ion-color-light-text-rgb: 247,233,211;
+  --ion-color-secondary-gold-rgb: 212,175,55;
+  --ion-color-dark-gray-rgb: 51,51,51;
+  --ion-color-medium-gray-rgb: 85,85,85;
+
+  --ion-color-gradient-start: var(--ion-color-primary-gold); /* Using gold for gradients */
+  --ion-color-gradient-end: var(--ion-color-secondary-gold);
+}
+
+/* ===== CONFIGURACIÓN DE COLORES IONIC ===== */
+.ion-color-primary-gold {
+  --ion-color-base: var(--ion-color-primary-gold);
+  --ion-color-base-rgb: var(--ion-color-primary-gold-rgb);
+  --ion-color-contrast: #ffffff;
+  --ion-color-contrast-rgb: 255,255,255;
+  --ion-color-shade: #a27e42; /* Slightly darker gold */
+  --ion-color-tint: #c59f5f; /* Slightly lighter gold */
+}
+
+.ion-color-dark-background {
+  --ion-color-base: var(--ion-color-dark-background);
+  --ion-color-base-rgb: var(--ion-color-dark-background-rgb);
+  --ion-color-contrast: #ffffff;
+  --ion-color-contrast-rgb: 255,255,255;
+  --ion-color-shade: #171717;
+  --ion-color-tint: #313131;
+}
+
+.ion-color-light-text {
+  --ion-color-base: var(--ion-color-light-text);
+  --ion-color-base-rgb: var(--ion-color-light-text-rgb);
+  --ion-color-contrast: #000000;
+  --ion-color-contrast-rgb: 0,0,0;
+  --ion-color-shade: #d7cdbe;
+  --ion-color-tint: #fbe9cf;
+}

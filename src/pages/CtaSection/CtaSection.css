@@ -1,0 +1,44 @@
+.cta-section {
+  color: #fff;
+  padding-top: 4rem;
+  padding-bottom: 5rem;
+  text-align: center;
+}
+
+.cta-container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.cta-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.cta-subtitle {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+  max-width: 32rem;
+  margin-left: auto;
+  margin-right: auto;
+  color: var(--ion-color-light-gray-200);
+}
+
+.cta-btn {
+  padding: 1rem 2rem;
+  border-radius: 0.75rem;
+  font-size: 1.125rem;
+  font-weight: 600;
+  transition: background 0.3s, color 0.3s;
+  background: var(--ion-color-primary-gold) !important;
+  color: #fff;
+}
+
+.cta-btn:hover {
+  background: var(--ion-color-gradient-end, #D4AF37);
+  color: #fff;
+}
