@@ -5,7 +5,7 @@ import {
 
 // Constantes de textos organizadas por secciones
 export const texts: TextsInterface = {
-  pageTitle: "BuilCo",
+  pageTitle: "Building Connections",
   
   navigation: {
     features: "Características",

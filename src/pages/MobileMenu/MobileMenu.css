@@ -1,0 +1,44 @@
+.mobile-menu-toolbar {
+  background: var(--ion-color-primary-gold);
+}
+
+.mobile-menu-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--ion-color-primary-gold);
+}
+
+.mobile-menu-list {
+  padding-top: 2rem;
+}
+
+.mobile-menu-btn {
+  color: #e5e7eb;
+  font-size: 1.125rem;
+  font-weight: 500;
+  text-align: left;
+  border-radius: 0.5rem;
+  padding: 1rem 0.5rem;
+  transition: color 0.3s, background 0.3s;
+  background: transparent;
+}
+
+.mobile-menu-btn:hover {
+  color: var(--ion-color-primary-gold);
+  background: rgba(255,255,255,0.04);
+}
+
+.mobile-menu-cta-btn {
+  color: #fff;
+  background: var(--ion-color-primary-gold);
+  border-radius: 0.5rem;
+  font-weight: 600;
+  margin-top: 1.5rem;
+  font-size: 1.125rem;
+  transition: background 0.3s, color 0.3s;
+}
+
+.mobile-menu-cta-btn:hover {
+  background: var(--ion-color-gradient-end, #D4AF37);
+  color: #fff;
+}

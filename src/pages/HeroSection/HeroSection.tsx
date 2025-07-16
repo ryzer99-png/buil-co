@@ -1,8 +1,9 @@
-
+import './HeroSection.css';
 import React from 'react';
 import { IonButton } from '@ionic/react';
 import { texts } from '../../constants/constants';
-import './HeroSection.css';
+import { ROUTES } from '../../routes';
+
 
 const Hero: React.FC = () => (
   <section className="hero-section">
@@ -10,10 +11,10 @@ const Hero: React.FC = () => (
       <h1 className="hero-title">{texts.hero.title}</h1>
       <p className="hero-subtitle">{texts.hero.subtitle}</p>
       <div className="hero-actions">
-        <IonButton href="#cta" color="primary-gold" className="hero-btn">
+        <IonButton href={ROUTES.CTA} className="btn" color={"primary-gold"}>
           {texts.hero.ctaPrimary}
         </IonButton>
-        <IonButton href="#caracteristicas" fill="outline" color="primary-gold" className="hero-btn hero-btn-outline">
+        <IonButton href={ROUTES.FEATURES} fill="clear" className="btn btn-outline">
           {texts.hero.ctaSecondary}
         </IonButton>
       </div>

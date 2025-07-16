@@ -14,13 +14,13 @@ import './theme/variables.css';
 import './global.css';
 import React, { useState } from 'react';
 import { IonApp, IonPage, IonContent, setupIonicReact } from '@ionic/react';
-import MenuMobile from './pages/MobileMenu';
-import Header from './pages/MainHeader';
+import MenuMobile from './pages/MobileMenu/MobileMenu';
+import Header from './pages/MainHeader/MainHeader';
 import Hero from './pages/HeroSection/HeroSection';
-import Features from './pages/FeaturesSection';
-import Partners from './pages/PartnersSection';
-import CTA from './pages/CtaSection';
-import Footer from './pages/Footer';
+import Features from './pages/FeaturesSection/FeaturesSection';
+import Partners from './pages/PartnetsSection/PartnersSection';
+import CTA from './pages/CtaSection/CtaSection';
+import Footer from './pages/Footer/Footer';
 
 // Configura Ionic React
 setupIonicReact();
