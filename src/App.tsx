@@ -17,7 +17,7 @@ import { IonApp, IonPage, IonContent, setupIonicReact } from '@ionic/react';
 import MenuMobile from './pages/MobileMenu/MobileMenu';
 import Header from './pages/MainHeader/MainHeader';
 import Hero from './pages/HeroSection/HeroSection';
-import Features from './pages/FeaturesSection/FeaturesSection';
+import Services from './pages/ServicesSection/ServicesSection';
 import Partners from './pages/PartnetsSection/PartnersSection';
 import CTA from './pages/CtaSection/CtaSection';
 import Footer from './pages/Footer/Footer';
@@ -36,7 +36,7 @@ const App = () => {
         <IonContent>
           <Header />
           <Hero />
-          <Features />
+          <Services />
           <Partners />
           <CTA />
           <Footer />

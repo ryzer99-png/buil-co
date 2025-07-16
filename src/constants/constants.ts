@@ -18,7 +18,7 @@ export const texts: TextsInterface = {
     title: "Construyendo Conexiones Estratégicas",
     subtitle: "Impulsamos empresas con propósito a través de soluciones innovadoras, sostenibles y colaborativas. Conectamos talento, tecnología y visión estratégica para transformar desafíos en oportunidades y convertir a nuestros aliados en líderes de impacto en sus industrias.",
     ctaPrimary: "¡Descubre Más!",
-    ctaSecondary: "Ver Características"
+    ctaSecondary: "Ver Partners"
   },
   
   features: {
