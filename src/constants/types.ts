@@ -1,12 +1,10 @@
-// Modelos de datos y tipos para la app
-
 export interface TextsInterface {
   pageTitle: string;
   navigation: {
     features: string;
     partners: string;
     contact: string;
-    ctaButton: string;
+    workWithUs: string;
   };
   hero: {
     title: string;
@@ -32,7 +30,7 @@ export interface TextsInterface {
   partners: {
     title: string;
   };
-  cta: {
+  workWithUs: {
     title: string;
     subtitle: string;
     button: string;
@@ -46,29 +44,23 @@ export interface TextsInterface {
 
 export interface ConfigInterface {
   companyName: string;
+  companyType: string;
+  companyDescription: string;
+  contactTitle: string;
   logo: {
     src: string;
     alt: string;
   };
   social: {
-    twitter: string;
     linkedin: string;
-    github: string;
+    instagram: string;
+    facebook: string;
   };
   contact: {
     email: string;
     phone: string;
+    location: string;
   };
-}
-
-export interface ColorsInterface {
-  primary: string;
-  secondary: string;
-  accent: string;
-  darkBlue900: string;
-  darkBlue800: string;
-  lightGray100: string;
-  lightGray200: string;
 }
 
 export interface PlaceholderImagesInterface {
@@ -78,3 +70,5 @@ export interface PlaceholderImagesInterface {
   feature3: string;
   partners: string[];
 }
+
+export type PartnersImages = string[];

@@ -12,15 +12,19 @@ import '@ionic/react/css/display.css';
 /* Theme variables */
 import './theme/variables.css';
 import './global.css';
+
 import React, { useState } from 'react';
-import { IonApp, IonPage, IonContent, setupIonicReact } from '@ionic/react';
-import MenuMobile from './pages/MobileMenu/MobileMenu';
-import Header from './pages/MainHeader/MainHeader';
-import Hero from './pages/HeroSection/HeroSection';
-import Services from './pages/ServicesSection/ServicesSection';
-import Partners from './pages/PartnetsSection/PartnersSection';
-import CTA from './pages/CtaSection/CtaSection';
+
+import { IonApp, IonContent, IonPage, setupIonicReact } from '@ionic/react';
+
+import Contact from './pages/ContactSection/ContactSection';
+import WorkWithUs from './pages/WorkWithUsSection/WorkWithUsSection';
 import Footer from './pages/Footer/Footer';
+import Hero from './pages/HeroSection/HeroSection';
+import Header from './pages/MainHeader/MainHeader';
+import MenuMobile from './pages/MobileMenu/MobileMenu';
+import Partners from './pages/PartnetsSection/PartnersSection';
+import Services from './pages/ServicesSection/ServicesSection';
 
 // Configura Ionic React
 setupIonicReact();
@@ -38,7 +42,8 @@ const App = () => {
           <Hero />
           <Services />
           <Partners />
-          <CTA />
+          <WorkWithUs />
+          <Contact />
           <Footer />
         </IonContent>
       </IonPage>

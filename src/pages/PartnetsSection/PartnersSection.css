@@ -71,6 +71,12 @@
   transition: box-shadow 0.3s;
 }
 
+.partners-carousel-item img {
+  max-width: 250px;
+  max-height: 60px;
+  object-fit: contain;
+}
+
 .partners-carousel-item:last-child {
   margin-right: 0 !important;
 }

@@ -1,4 +1,4 @@
-import './CtaSection.css';
+import './WorkWithUs.css';
 
 import React from 'react';
 
@@ -6,21 +6,21 @@ import { IonButton } from '@ionic/react';
 
 import { texts } from '../../constants/constants';
 
-const CTA: React.FC = () => (
-  <section id="cta" className="cta-section">
+const workWithUs: React.FC = () => (
+  <section id="workwithus" className="cta-section">
     <div className="cta-container">
-      <h2 className="cta-title">{texts.cta.title}</h2>
-      <p className="cta-subtitle">{texts.cta.subtitle}</p>
+      <h2 className="cta-title">{texts.workWithUs.title}</h2>
+      <p className="cta-subtitle">{texts.workWithUs.subtitle}</p>
       <IonButton
         fill='clear'
         href="https://docs.google.com/forms/d/e/1FAIpQLSdSDKnqWue_okq5cmwKBiZ23AAx-3KBpcruY2GUzwaWZZkgOg/viewform"
         target="_blank"
         rel="noopener noreferrer"
         className="cta-btn">
-        {texts.cta.button}
+        {texts.workWithUs.button}
       </IonButton>
     </div>
   </section>
 );
 
-export default CTA;
+export default workWithUs;
