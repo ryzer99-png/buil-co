@@ -67,6 +67,7 @@
   min-height: 80px;
   background: #f7fafc;
   border-radius: 0.75rem;
+  filter: grayscale(1);
   box-shadow: 0 2px 8px rgba(0,0,0,0.04);
   transition: box-shadow 0.3s;
 }

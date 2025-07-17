@@ -1,1 +1,14 @@
-<svg aria-hidden="true" focusable="false" data-prefix="fal" data-icon="landmark-flag" class="svg-inline--fa fa-landmark-flag" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M272 32V64h64V32H272zm80 64H272v32H464c8.8 0 16 7.2 16 16s-7.2 16-16 16H48c-8.8 0-16-7.2-16-16s7.2-16 16-16H240V96 64 24 16c0-8.8 7.2-16 16-16h8 8 80c8.8 0 16 7.2 16 16V80c0 8.8-7.2 16-16 16zM48 368c0-8.8 7.2-16 16-16V192H96V352h80V192h32V352h96V192h32V352h80V192h32V352c8.8 0 16 7.2 16 16s-7.2 16-16 16H64c-8.8 0-16-7.2-16-16zM24 432c0-8.8 7.2-16 16-16H472c8.8 0 16 7.2 16 16s-7.2 16-16 16H40c-8.8 0-16-7.2-16-16zM0 496c0-8.8 7.2-16 16-16H496c8.8 0 16 7.2 16 16s-7.2 16-16 16H16c-8.8 0-16-7.2-16-16z"></path></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 512 512">
+  <!-- Generator: Adobe Illustrator 29.0.0, SVG Export Plug-In . SVG Version: 2.1.0 Build 186)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: #b88e4a;
+      }
+    </style>
+  </defs>
+  <g id="Capa_1" focusable="false">
+    <path class="st0" d="M272,32v32h64v-32h-64ZM352,96h-80v32h192c8.8,0,16,7.2,16,16s-7.2,16-16,16H48c-8.8,0-16-7.2-16-16s7.2-16,16-16h192V16c0-8.8,7.2-16,16-16h96c8.8,0,16,7.2,16,16v64c0,8.8-7.2,16-16,16ZM48,368c0-8.8,7.2-16,16-16v-160h32v160h80v-160h32v160h96v-160h32v160h80v-160h32v160c8.8,0,16,7.2,16,16s-7.2,16-16,16H64c-8.8,0-16-7.2-16-16ZM24,432c0-8.8,7.2-16,16-16h432c8.8,0,16,7.2,16,16s-7.2,16-16,16H40c-8.8,0-16-7.2-16-16ZM0,496c0-8.8,7.2-16,16-16h480c8.8,0,16,7.2,16,16s-7.2,16-16,16H16c-8.8,0-16-7.2-16-16Z"/>
+  </g>
+</svg>

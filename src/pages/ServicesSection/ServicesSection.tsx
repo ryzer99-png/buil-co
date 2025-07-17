@@ -7,7 +7,7 @@ import GlobeIcon from '../../icons/GlobeIcon';
 import GovermentIcon from '../../icons/goverment.svg';
 
 const Services: React.FC = () => (
-  <section id="caracteristicas" className="features-section">
+  <section id="services" className="features-section">
     <div className="features-container">
       <IonText color="primary-gold">
         <h2 className="features-title">{texts.features.title}</h2>

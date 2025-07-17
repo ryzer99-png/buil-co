@@ -58,7 +58,6 @@ export interface ConfigInterface {
   };
   contact: {
     email: string;
-    phone: string;
     location: string;
   };
 }
