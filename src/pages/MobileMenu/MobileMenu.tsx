@@ -17,7 +17,7 @@ const MenuMobile: React.FC<Props> = ({ setShowMobileMenu }) => (
     </IonHeader>
     <IonContent>
       <IonList className="mobile-menu-list">
-        <IonItem routerLink={ROUTES.FEATURES} detail={false}>
+        <IonItem routerLink={ROUTES.SERVICES} detail={false}>
           <IonButton fill="clear" expand="full" className="mobile-menu-btn" onClick={() => setShowMobileMenu(false)}>{texts.navigation.features}</IonButton>
         </IonItem>
         <IonItem routerLink={ROUTES.PARTNERS} detail={false}>
@@ -26,8 +26,8 @@ const MenuMobile: React.FC<Props> = ({ setShowMobileMenu }) => (
         <IonItem routerLink={ROUTES.CONTACT} detail={false}>
           <IonButton fill="clear" expand="full" className="mobile-menu-btn" onClick={() => setShowMobileMenu(false)}>{texts.navigation.contact}</IonButton>
         </IonItem>
-        <IonItem routerLink={ROUTES.CTA} detail={false}>
-          <IonButton color="primary-gold" expand="full" className="mobile-menu-cta-btn" onClick={() => setShowMobileMenu(false)}>{texts.navigation.ctaButton}</IonButton>
+        <IonItem routerLink={ROUTES.WorkWithUs} detail={false}>
+          <IonButton color="primary-gold" expand="full" className="mobile-menu-cta-btn" onClick={() => setShowMobileMenu(false)}>{texts.navigation.workWithUs}</IonButton>
         </IonItem>
       </IonList>
     </IonContent>

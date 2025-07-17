@@ -34,12 +34,12 @@
   background: #fff;
   padding: 2rem;
   border-radius: 1rem;
-  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
   text-align: center;
   transition: box-shadow 0.3s;
 }
 .features-card:hover {
-  box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
 }
 
 .features-icon {
@@ -56,4 +56,33 @@
 
 .features-card p {
   color: #444;
+}
+
+.features-icon img {
+  color: var(--ion-color-accent-blue);
+}
+
+.features-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.features-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100px;
+  margin-bottom: 1rem;
+}
+
+.features-icon img,
+.features-icon svg {
+  display: block;
+  margin: 0 auto;
+  height: 60px;
+  width: 60px;
 }

@@ -19,7 +19,7 @@ const Header: React.FC = () => (
         <div className="main-header-logo-title">
           <a href="#" className="main-header-logo-link">
             <img
-              src="assets/logo.png"
+              src="assets/logo.svg"
               alt="Logo de la Empresa"
               className="main-header-logo-img"
             />
@@ -30,10 +30,10 @@ const Header: React.FC = () => (
         </div>
       </IonTitle>
       <IonButtons slot="end" className="main-header-nav">
-        <IonButton href={ROUTES.FEATURES} className="main-header-nav-btn">{texts.navigation.features}</IonButton>
+        <IonButton href={ROUTES.SERVICES} className="main-header-nav-btn">{texts.navigation.features}</IonButton>
         <IonButton href={ROUTES.PARTNERS} className="main-header-nav-btn">{texts.navigation.partners}</IonButton>
         <IonButton href={ROUTES.CONTACT} className="main-header-nav-btn">{texts.navigation.contact}</IonButton>
-        <IonButton href={ROUTES.CTA} className="main-header-cta-btn">{texts.navigation.ctaButton}</IonButton>
+        <IonButton href={ROUTES.WorkWithUs} className="main-header-cta-btn">{texts.navigation.workWithUs}</IonButton>
       </IonButtons>
     </IonToolbar>
   </IonHeader>

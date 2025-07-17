@@ -1,7 +1,7 @@
 // Central app routes for navigation
 export const ROUTES = {
-  FEATURES: '#services',
+  SERVICES: '#services',
   PARTNERS: '#partners',
   CONTACT: '#contact',
-  CTA: '#cta',
+  WorkWithUs: '#workwithus',
 };
