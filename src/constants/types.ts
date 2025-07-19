@@ -30,6 +30,9 @@ export interface TextsInterface {
   partners: {
     title: string;
   };
+  clients:{
+    title: string;
+  }
   workWithUs: {
     title: string;
     subtitle: string;

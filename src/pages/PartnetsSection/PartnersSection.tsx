@@ -15,9 +15,15 @@ const allPartners = [
   parqueE,
   camaraBogota,
   camaraMed,
-  cisne,
-  novira,
+ 
 ];
+
+const clients = [
+  cisne,
+  novira
+];
+
+const clientsLoop = [...clients, ...clients, ...clients, ...clients, ...clients];
 
 const partnersLoop = [...allPartners, ...allPartners];
 
@@ -28,6 +34,18 @@ const Partners: React.FC = () => (
       <div className="partners-carousel-wrapper">
         <div className="partners-carousel-track">
           {partnersLoop.map((src, i) => (
+            <div className="partners-carousel-item" key={i}>
+              <img src={src} alt={`Partner ${((i % allPartners.length) + 1)} Logo`} />
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+     <div className="partners-container">
+      <h2 className="partners-title">{texts.clients.title}</h2>
+      <div className="partners-carousel-wrapper">
+        <div className="partners-carousel-track">
+          {clientsLoop.map((src, i) => (
             <div className="partners-carousel-item" key={i}>
               <img src={src} alt={`Partner ${((i % allPartners.length) + 1)} Logo`} />
             </div>

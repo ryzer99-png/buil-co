@@ -1,8 +1,4 @@
-import {
-  ConfigInterface,
-  PlaceholderImagesInterface,
-  TextsInterface,
-} from "./types";
+import { ConfigInterface, TextsInterface } from "./types";
 
 export const texts: TextsInterface = {
   pageTitle: "Building Connections",
@@ -13,7 +9,9 @@ export const texts: TextsInterface = {
     contact: "Contacto",
     workWithUs: "Agenda con nosotros",
   },
-
+  clients: {
+    title: "Nuestros Clientes",
+  },
   hero: {
     title: "Construyendo Conexiones Estratégicas",
     subtitle:
@@ -37,7 +35,7 @@ export const texts: TextsInterface = {
     feature3: {
       title: "Gobierno y Gobernanza.",
       description:
-      "Acompañamiento en eltrámite deiniciativas legislativas. Desde su creación hasta su expedición."
+        "Acompañamiento en eltrámite deiniciativas legislativas. Desde su creación hasta su expedición.",
     },
   },
 
@@ -69,7 +67,7 @@ export const config: ConfigInterface = {
     alt: "Logo de Buil-Co",
   },
   social: {
-    linkedin: "https://linkedin.com/company/builco",
+    linkedin: "https://www.linkedin.com/company/builco-co",
     instagram: "https://www.instagram.com/builco.co/",
     facebook:
       "https://www.facebook.com/people/Builco-Building-Connections/61576676712545/",

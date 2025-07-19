@@ -12,9 +12,7 @@ import { ROUTES } from '../../routes';
 const Header: React.FC = () => (
   <IonHeader className="ion-no-border">
     <IonToolbar className="main-header-toolbar">
-      <IonButtons slot="start">
-        <IonMenuButton className="main-header-menu-btn" />
-      </IonButtons>
+  
       <IonTitle>
         <div className="main-header-logo-title">
           <a href="#" className="main-header-logo-link">
@@ -29,7 +27,7 @@ const Header: React.FC = () => (
           </span>
         </div>
       </IonTitle>
-      <IonButtons slot="end" className="main-header-nav">
+      <IonButtons slot="end" className="main-header-nav  hide-header-mobile">
         <IonButton href={ROUTES.PARTNERS} className="main-header-nav-btn">{texts.navigation.partners}</IonButton>
         <IonButton href={ROUTES.CONTACT} className="main-header-nav-btn">{texts.navigation.contact}</IonButton>
         <IonButton
