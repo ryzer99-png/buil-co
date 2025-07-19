@@ -9,15 +9,23 @@ import camaraMed from '../../../assets/camara-medellin.png';
 import cisne from '../../../assets/cisne-logo.png';
 import novira from '../../../assets/novira-logo.svg';
 
-const partners = [
+const allPartners = [
   alcaldiaMed,
   creame,
   parqueE,
   camaraBogota,
   camaraMed,
-  cisne,
-  novira,
+ 
 ];
+
+const clients = [
+  cisne,
+  novira
+];
+
+const clientsLoop = [...clients, ...clients, ...clients, ...clients, ...clients];
+
+const partnersLoop = [...allPartners, ...allPartners];
 
 const Partners: React.FC = () => (
   <section id="partners" className="partners-section">
@@ -25,9 +33,21 @@ const Partners: React.FC = () => (
       <h2 className="partners-title">{texts.partners.title}</h2>
       <div className="partners-carousel-wrapper">
         <div className="partners-carousel-track">
-          {partners.map((src, i) => (
+          {partnersLoop.map((src, i) => (
             <div className="partners-carousel-item" key={i}>
-              <img src={src} alt={`Partner ${i + 1} Logo`} />
+              <img src={src} alt={`Partner ${((i % allPartners.length) + 1)} Logo`} />
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+     <div className="partners-container">
+      <h2 className="partners-title">{texts.clients.title}</h2>
+      <div className="partners-carousel-wrapper">
+        <div className="partners-carousel-track">
+          {clientsLoop.map((src, i) => (
+            <div className="partners-carousel-item" key={i}>
+              <img src={src} alt={`Partner ${((i % allPartners.length) + 1)} Logo`} />
             </div>
           ))}
         </div>

@@ -1,19 +1,5 @@
-import alcaldiaMed from '../assets/alcaldia-medellin.svg';
-import creame from '../assets/creame.jpg';
-import parqueE from '../assets/parque-e.png';
-import camaraBogota from '../assets/camara-bogota.png';
-import camaraMed from '../assets/camara-medellin.png';
-import cisne from '../assets/cisne-logo.png';
-import novira from '../assets/novira-logo.svg';
+import { ConfigInterface, TextsInterface } from "./types";
 
-// Tipos movidos a types.ts
-import {
-  ConfigInterface,
-  PlaceholderImagesInterface,
-  TextsInterface,
-} from "./types";
-
-// Constantes de textos organizadas por secciones
 export const texts: TextsInterface = {
   pageTitle: "Building Connections",
 
@@ -21,9 +7,11 @@ export const texts: TextsInterface = {
     features: "Características",
     partners: "Partners",
     contact: "Contacto",
-    workWithUs: "Empezar Ahora",
+    workWithUs: "Agenda con nosotros",
   },
-
+  clients: {
+    title: "Nuestros Clientes",
+  },
   hero: {
     title: "Construyendo Conexiones Estratégicas",
     subtitle:
@@ -47,7 +35,7 @@ export const texts: TextsInterface = {
     feature3: {
       title: "Gobierno y Gobernanza.",
       description:
-      "Acompañamiento en eltrámite deiniciativas legislativas. Desde su creación hasta su expedición."
+        "Acompañamiento en eltrámite deiniciativas legislativas. Desde su creación hasta su expedición.",
     },
   },
 
@@ -69,7 +57,6 @@ export const texts: TextsInterface = {
   },
 };
 
-// Constantes de configuración adicionales
 export const config: ConfigInterface = {
   companyName: "Building Connection",
   companyType: "SAS BIC",
@@ -80,43 +67,24 @@ export const config: ConfigInterface = {
     alt: "Logo de Buil-Co",
   },
   social: {
-    linkedin: "https://linkedin.com/company/builco",
+    linkedin: "https://www.linkedin.com/company/builco-co",
     instagram: "https://www.instagram.com/builco.co/",
     facebook:
       "https://www.facebook.com/people/Builco-Building-Connections/61576676712545/",
   },
   contact: {
     email: "contacto@buil-co.com",
-    phone: "+57 314 6000347",
     location: "Medellín - Bogotá, Colombia",
   },
   contactTitle: "Contacto",
-};
-
-// URLs de imágenes placeholder
-export const placeholderImages: PlaceholderImagesInterface = {
-  hero: "https://placehold.co/800x600/3182ce/ffffff?text=Hero+Image",
-  feature1: "https://placehold.co/400x300/f7fafc/2d3748?text=Feature+1",
-  feature2: "https://placehold.co/400x300/f7fafc/2d3748?text=Feature+2",
-  feature3: "https://placehold.co/400x300/f7fafc/2d3748?text=Feature+3",
-  partners: [
-    "https://placehold.co/150x80/e2e8f0/2d3748?text=Partner+1",
-    "https://placehold.co/150x80/e2e8f0/2d3748?text=Partner+2",
-    "https://placehold.co/150x80/e2e8f0/2d3748?text=Partner+3",
-    "https://placehold.co/150x80/e2e8f0/2d3748?text=Partner+4",
-    "https://placehold.co/150x80/e2e8f0/2d3748?text=Partner+5",
-    "https://placehold.co/150x80/e2e8f0/2d3748?text=Partner+6",
-  ],
 };
 
 // Exportaciones por defecto y adicionales
 export default {
   texts,
   config,
-  placeholderImages,
 };
 
 // Exportaciones individuales para mayor flexibilidad
 export { texts as appTexts };
 export { config as appConfig };
-export { placeholderImages as appImages };

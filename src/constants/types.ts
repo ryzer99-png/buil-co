@@ -30,6 +30,9 @@ export interface TextsInterface {
   partners: {
     title: string;
   };
+  clients:{
+    title: string;
+  }
   workWithUs: {
     title: string;
     subtitle: string;
@@ -58,7 +61,6 @@ export interface ConfigInterface {
   };
   contact: {
     email: string;
-    phone: string;
     location: string;
   };
 }

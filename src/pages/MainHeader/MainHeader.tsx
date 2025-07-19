@@ -3,7 +3,7 @@ import './MainHeader.css';
 import React from 'react';
 
 import {
-    IonButton, IonButtons, IonHeader, IonMenuButton, IonTitle, IonToolbar
+  IonButton, IonButtons, IonHeader, IonMenuButton, IonTitle, IonToolbar
 } from '@ionic/react';
 
 import { texts } from '../../constants/constants';
@@ -12,9 +12,7 @@ import { ROUTES } from '../../routes';
 const Header: React.FC = () => (
   <IonHeader className="ion-no-border">
     <IonToolbar className="main-header-toolbar">
-      <IonButtons slot="start">
-        <IonMenuButton className="main-header-menu-btn" />
-      </IonButtons>
+  
       <IonTitle>
         <div className="main-header-logo-title">
           <a href="#" className="main-header-logo-link">
@@ -29,12 +27,17 @@ const Header: React.FC = () => (
           </span>
         </div>
       </IonTitle>
-      <IonButtons slot="end" className="main-header-nav">
-        <IonButton href={ROUTES.SERVICES} className="main-header-nav-btn">{texts.navigation.features}</IonButton>
+      <IonButtons slot="end" className="main-header-nav  hide-header-mobile">
         <IonButton href={ROUTES.PARTNERS} className="main-header-nav-btn">{texts.navigation.partners}</IonButton>
         <IonButton href={ROUTES.CONTACT} className="main-header-nav-btn">{texts.navigation.contact}</IonButton>
-        <IonButton href={ROUTES.WorkWithUs} className="main-header-cta-btn">{texts.navigation.workWithUs}</IonButton>
-      </IonButtons>
+        <IonButton
+          fill='clear'
+          href="https://docs.google.com/forms/d/e/1FAIpQLSdSDKnqWue_okq5cmwKBiZ23AAx-3KBpcruY2GUzwaWZZkgOg/viewform"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="main-header-cta-btn">
+          {texts.workWithUs.button}
+        </IonButton>      </IonButtons>
     </IonToolbar>
   </IonHeader>
 );

@@ -40,9 +40,6 @@ const ContactSection: React.FC = () => (
           <li>
             <IonIcon icon={mailOutline} /> {config.contact.email}
           </li>
-          <li>
-            <IonIcon icon={phonePortrait} /> {config.contact.phone}
-          </li>
         </ul>
       </div>
     </div>

@@ -28,6 +28,16 @@
   align-items: center;
 }
 
+.hide-header-mobile {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .hide-header-mobile {
+    display: block;
+  }
+}
+
 .main-header-logo-img {
   height: 2.5rem;
   width: auto;
