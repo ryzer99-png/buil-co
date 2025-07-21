@@ -1,3 +1,22 @@
+.main-header-lang-switch {
+  display: flex;
+  align-items: center;
+  margin-left: 12px;
+}
+
+.lang-flag-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  margin-right: 4px;
+  display: flex;
+  align-items: center;
+}
+
+.lang-flag-btn:last-child {
+  margin-right: 0;
+}
 .main-header-toolbar {
   background: var(--ion-color-dark-blue-800);
   padding-left: 1rem;

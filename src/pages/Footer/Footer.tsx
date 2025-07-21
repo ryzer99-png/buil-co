@@ -4,22 +4,25 @@ import React from 'react';
 
 import { IonText } from '@ionic/react';
 
-import { texts } from '../../constants/constants';
+import { useTranslation } from 'react-i18next';
 
-const Footer: React.FC = () => (
-  <footer className="footer-section">
-    <div className="footer-container">
-      <div className='footer-copy'>
-        <IonText>
-          <p>{texts.footer.copyright}</p>
-        </IonText>
+const Footer: React.FC = () => {
+  const { t } = useTranslation();
+  return (
+    <footer className="footer-section">
+      <div className="footer-container">
+        <div className='footer-copy'>
+          <IonText>
+            <p>{t('footer.copyright')}</p>
+          </IonText>
+        </div>
+        <div className="footer-links">
+          <a className="footer-link">{t('footer.privacy')}</a>
+          <a className="footer-link">{t('footer.terms')}</a>
+        </div>
       </div>
-      <div className="footer-links">
-        <a className="footer-link">{texts.footer.privacy}</a>
-        <a className="footer-link">{texts.footer.terms}</a>
-      </div>
-    </div>
-  </footer>
-);
+    </footer>
+  );
+};
 
 export default Footer;

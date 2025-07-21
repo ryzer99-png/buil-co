@@ -1,44 +1,42 @@
 import './ServicesSection.css';
 import React from 'react';
-import { IonText, IonCard, IonCardHeader, IonCardContent, IonGrid, IonRow, IonCol } from '@ionic/react';
-import { texts } from '../../constants/constants';
+import { IonText, IonGrid, IonRow, IonCol } from '@ionic/react';
+import { useTranslation } from 'react-i18next';
 import GlobeIcon from '../../icons/GlobeIcon';
 import GovermentIcon from '../../icons/goverment.svg';
+import GenericCard from '../../components/GenericCard';
 
-const Services: React.FC = () => (
-  <section id="services" className="features-section">
-    <div className="features-container">
-      <IonText color="primary-gold">
-        <h2 className="features-title">{texts.features.title}</h2>
-      </IonText>
-      <IonGrid>
-        <IonRow>
-          <IonCol size="12" sizeMd="6">
-            <IonCard className="features-card">
-              <IonCardHeader className="features-icon">
-                <img className='img' src={GovermentIcon} alt="Gobierno y Gobernanza" />
-              </IonCardHeader>
-              <IonCardContent>
-                <h3>{texts.features.feature3.title}</h3>
-                <p>{texts.features.feature3.description}</p>
-              </IonCardContent>
-            </IonCard>
-          </IonCol>
-          <IonCol size="12" sizeMd="6">
-            <IonCard className="features-card">
-              <IonCardHeader className="features-icon">
-                <GlobeIcon />
-              </IonCardHeader>
-              <IonCardContent>
-                  <h3>{texts.features.feature1.title}</h3>
-                  <p>{texts.features.feature1.description}</p>
-              </IonCardContent>
-            </IonCard>
-          </IonCol>
-        </IonRow>
-      </IonGrid>
-    </div>
-  </section>
-);
+const Services: React.FC = () => {
+  const { t } = useTranslation();
+  return (
+    <section id="services" className="features-section">
+      <div className="features-container">
+        <IonText color="primary-gold">
+          <h2 className="features-title">{t('features.title')}</h2>
+        </IonText>
+        <IonGrid>
+          <IonRow>
+            <IonCol size="12" sizeMd="6">
+              <GenericCard
+                icon={<img className='img' src={GovermentIcon} alt="Gobierno y Gobernanza" />}
+                title={t('features.feature3.title')}
+                description={t('features.feature3.description')}
+                color=""
+              />
+            </IonCol>
+            <IonCol size="12" sizeMd="6">
+              <GenericCard
+                icon={<GlobeIcon />}
+                title={t('features.feature1.title')}
+                description={t('features.feature1.description')}
+                color=""
+              />
+            </IonCol>
+          </IonRow>
+        </IonGrid>
+      </div>
+    </section>
+  );
+};
 
 export default Services;

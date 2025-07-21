@@ -4,7 +4,7 @@
 }
 
 body {
-  font-family: 'Open Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  --font-family: 'Open Sans';
   --ion-background-color: var(--ion-color-dark-background);
   --ion-text-color: var(--ion-color-light-text);
   background-color: var(--ion-color-dark-background);

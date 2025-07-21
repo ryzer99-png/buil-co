@@ -13,10 +13,10 @@ import '@ionic/react/css/display.css';
 import './theme/variables.css';
 import './global.css';
 
+
 import React, { useState } from 'react';
-
 import { IonApp, IonContent, IonPage, setupIonicReact } from '@ionic/react';
-
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Contact from './pages/ContactSection/ContactSection';
 import WorkWithUs from './pages/WorkWithUsSection/WorkWithUsSection';
 import Footer from './pages/Footer/Footer';
@@ -25,6 +25,8 @@ import Header from './pages/MainHeader/MainHeader';
 import MenuMobile from './pages/MobileMenu/MobileMenu';
 import Partners from './pages/PartnetsSection/PartnersSection';
 import Services from './pages/ServicesSection/ServicesSection';
+import AboutUs from './pages/AboutUs/AboutUs';
+import { ROUTES } from './routes';
 
 // Configura Ionic React
 setupIonicReact();
@@ -35,18 +37,27 @@ const App = () => {
 
   return (
     <IonApp>
-      <MenuMobile setShowMobileMenu={setShowMobileMenu} />
-      <IonPage id="main-content">
-        <IonContent>
-          <Header />
-          <Hero />
-          <Services />
-          <Partners />
-          <WorkWithUs />
-          <Contact />
-          <Footer />
-        </IonContent>
-      </IonPage>
+      <Router>
+        <MenuMobile setShowMobileMenu={setShowMobileMenu} />
+        <IonPage id="main-content">
+          <IonContent>
+            <Header />
+            <Switch>
+              <Route exact path={ROUTES.HOME}>
+                <Hero />
+                <Services />
+                <Partners />
+                <WorkWithUs />
+                <Contact />
+                <Footer />
+              </Route>
+              <Route path={ROUTES.ABOUTUS}>
+                <AboutUs />
+              </Route>
+            </Switch>
+          </IonContent>
+        </IonPage>
+      </Router>
     </IonApp>
   );
 };

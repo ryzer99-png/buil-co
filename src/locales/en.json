@@ -1,0 +1,83 @@
+{
+  "us": {
+    "title": "About Us",
+    "whyTitle": "Why Builco?",
+    "whyText": "At Builco, we don't just provide consulting: we become strategic partners. We combine vision, multisectoral experience, and innovation to offer comprehensive solutions that create real value. We support our clients with a 360° approach, designing and implementing sustainable and effective strategies that drive their growth. Where others see problems, we see opportunities for transformation.",
+    "whoTitle": "Who Are We?",
+    "who": [
+      { "title": "Strategic Partners", "desc": "Builco drives business growth in Colombia and LATAM." },
+      { "title": "BIC Company", "desc": "Committed to social and environmental impact." },
+      { "title": "Multidisciplinary Team", "desc": "Experts in various sectors and markets." }
+    ],
+    "finalText": "Building bridges, driving the future, and creating new connections to elevate the mission of our clients and partners.",
+    "valuesTitle": "Builco Values",
+    "values": [
+      { "title": "Relationships before transactions", "desc": "We build lasting and meaningful bonds, prioritizing mutual value over immediate gain." },
+      { "title": "We grow so others can grow", "desc": "Our success is measured by the positive impact and growth we generate for our clients and partners." },
+      { "title": "Authenticity as a principle", "desc": "We operate with transparency and honesty, staying true to our values and who we are." },
+      { "title": "Courage to reinvent", "desc": "We embrace change and challenge the status quo, seeking new and better ways to do things." },
+      { "title": "Beta Culture", "desc": "We are in constant learning and evolution, always open to testing, adapting, and improving our processes." },
+      { "title": "Innovate and create impact", "desc": "We seek creative and disruptive solutions that leave a positive and lasting mark on society." },
+      { "title": "Responsibility for tomorrow", "desc": "We act with future generations in mind, committing to sustainable and ethical practices." }
+    ]
+  },
+  "pageTitle": "Building Connections",
+  "navigation": {
+    "features": "Features",
+    "us": "About Us",
+    "contact": "Contact",
+    "workWithUs": "Book with us"
+  },
+  "clients": {
+    "title": "Our partners*"
+  },
+  "hero": {
+    "title": "Building Strategic Connections",
+    "subtitle": "We empower purpose-driven companies through innovative, sustainable, and collaborative solutions. We connect talent, technology, and strategic vision to turn challenges into opportunities and make our partners industry leaders.",
+    "ctaPrimary": "Discover More!",
+    "ctaSecondary": "See Partners"
+  },
+  "features": {
+    "title": "Our Services",
+    "feature1": {
+      "title": "Impact Representation",
+      "description": "We help organizations expand in Latin America and the US, connecting them with strategic partners and opportunities to accelerate their impact."
+    },
+    "feature2": {
+      "title": "360 Consulting",
+      "description": "We offer comprehensive consulting (from strategy to execution, including legal and data intelligence) to generate real and measurable economic, social, and environmental impact."
+    },
+    "feature3": {
+      "title": "Government and Governance.",
+      "description": "Support in the process of legislative initiatives. From creation to enactment."
+    }
+  },
+  "partners": {
+    "title": "Where we are"
+  },
+  "workWithUs": {
+    "title": "Let's Work Together",
+    "subtitle": "Ready to boost your impact? Explore new markets, forge strategic alliances, and transform your practices. Connect with Builco today.",
+    "button": "Book with us"
+  },
+  "companyDescription": "Drive sustainable growth through business representation with a clear purpose and market development.",
+  "logo": {
+    "src": "/assets/logo.svg",
+    "alt": "Buil-Co Logo"
+  },
+  "social": {
+    "linkedin": "https://www.linkedin.com/company/builco-co",
+    "instagram": "https://www.instagram.com/builco.co/",
+    "facebook": "https://www.facebook.com/people/Builco-Building-Connections/61576676712545/"
+  },
+  "contact": {
+    "email": "teambuilco@gmail.com",
+    "location": "Medellín - Bogotá, Colombia"
+  },
+  "contactTitle": "Contact",
+  "footer": {
+    "copyright": "© 2025 Builco. All rights reserved.",
+    "privacy": "From 🇨🇴 to 🌎",
+    "terms": "Terms of Service"
+  }
+}
