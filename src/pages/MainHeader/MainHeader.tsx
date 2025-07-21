@@ -3,7 +3,7 @@ import './MainHeader.css';
 import React from 'react';
 
 import {
-  IonButton, IonButtons, IonHeader, IonMenuButton, IonTitle, IonToolbar
+  IonButton, IonButtons, IonHeader, IonTitle, IonToolbar
 } from '@ionic/react';
 
 import { texts } from '../../constants/constants';
@@ -28,7 +28,7 @@ const Header: React.FC = () => (
         </div>
       </IonTitle>
       <IonButtons slot="end" className="main-header-nav  hide-header-mobile">
-        <IonButton href={ROUTES.PARTNERS} className="main-header-nav-btn">{texts.navigation.partners}</IonButton>
+        <IonButton href={ROUTES.PARTNERS} className="main-header-nav-btn">{texts.navigation.us}</IonButton>
         <IonButton href={ROUTES.CONTACT} className="main-header-nav-btn">{texts.navigation.contact}</IonButton>
         <IonButton
           fill='clear'

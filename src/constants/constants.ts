@@ -5,12 +5,12 @@ export const texts: TextsInterface = {
 
   navigation: {
     features: "Características",
-    partners: "Partners",
+    us: "Nosotros",
     contact: "Contacto",
     workWithUs: "Agenda con nosotros",
   },
   clients: {
-    title: "Nuestros Clientes",
+    title: "Nuestros partners*",
   },
   hero: {
     title: "Construyendo Conexiones Estratégicas",
@@ -35,12 +35,12 @@ export const texts: TextsInterface = {
     feature3: {
       title: "Gobierno y Gobernanza.",
       description:
-        "Acompañamiento en eltrámite deiniciativas legislativas. Desde su creación hasta su expedición.",
+        "Acompañamiento en el trámite de iniciativas legislativas. Desde su creación hasta su expedición.",
     },
   },
 
   partners: {
-    title: "Nuestros Partners",
+    title: "En donde estamos",
   },
 
   workWithUs: {
@@ -51,7 +51,7 @@ export const texts: TextsInterface = {
   },
 
   footer: {
-    copyright: "© 2025 Builco S.A.S. BIC. Todos los derechos reservados.",
+    copyright: "© 2025 Builco. Todos los derechos reservados.",
     privacy: "From 🇨🇴 to 🌎",
     terms: "Términos de Servicio",
   },
@@ -59,7 +59,7 @@ export const texts: TextsInterface = {
 
 export const config: ConfigInterface = {
   companyName: "Building Connection",
-  companyType: "SAS BIC",
+  companyType: "",
   companyDescription:
     "Impulsar el crecimiento sostenible a través de la representación empresarial con un propósito definido y el desarrollo del mercado",
   logo: {
@@ -73,7 +73,7 @@ export const config: ConfigInterface = {
       "https://www.facebook.com/people/Builco-Building-Connections/61576676712545/",
   },
   contact: {
-    email: "contacto@buil-co.com",
+    email: "teambuilco@gmail.com",
     location: "Medellín - Bogotá, Colombia",
   },
   contactTitle: "Contacto",

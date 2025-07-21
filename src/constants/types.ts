@@ -2,7 +2,7 @@ export interface TextsInterface {
   pageTitle: string;
   navigation: {
     features: string;
-    partners: string;
+    us: string;
     contact: string;
     workWithUs: string;
   };

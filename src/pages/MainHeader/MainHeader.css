@@ -1,8 +1,17 @@
 .main-header-toolbar {
   background: var(--ion-color-dark-blue-800);
   padding-left: 1rem;
-  margin-top: 1rem;
   padding-right: 2rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  margin-top: 0;
+}
+
+body {
+  padding-top: 80px;
 }
 
 .main-header-menu-btn {
@@ -50,10 +59,18 @@
   font-weight: bold;
   color: var(--ion-color-primary-gold);
   margin-left: 1rem;
+  white-space: normal;
+  word-break: break-word;
 }
 @media (min-width: 768px) {
   .main-header-title-text {
     display: block;
+  }
+}
+
+@media (max-width: 1100px) {
+  .main-header-title-text {
+    font-size: 1.3rem;
   }
 }
 
