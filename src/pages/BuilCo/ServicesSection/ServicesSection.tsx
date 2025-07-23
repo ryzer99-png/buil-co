@@ -2,9 +2,9 @@ import './ServicesSection.css';
 import React from 'react';
 import { IonText, IonGrid, IonRow, IonCol } from '@ionic/react';
 import { useTranslation } from 'react-i18next';
-import GlobeIcon from '../../icons/GlobeIcon';
-import GovermentIcon from '../../icons/goverment.svg';
-import GenericCard from '../../components/GenericCard';
+import GlobeIcon from '../../../icons/GlobeIcon';
+import GovermentIcon from '../../../icons/goverment.svg';
+import GenericCard from '../../../components/GenericCard';
 
 const Services: React.FC = () => {
   const { t } = useTranslation();

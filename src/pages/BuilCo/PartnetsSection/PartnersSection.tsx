@@ -1,13 +1,13 @@
 import './PartnersSection.css';
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import alcaldiaMed from '../../../assets/alcaldia-medellin.svg';
-import creame from '../../../assets/creame.jpg';
-import parqueE from '../../../assets/parque-e.png';
-import camaraBogota from '../../../assets/camara-bogota.png';
-import camaraMed from '../../../assets/camara-medellin.png';
-import cisne from '../../../assets/cisne-logo.png';
-import novira from '../../../assets/novira-logo.svg';
+import alcaldiaMed from '../../../../assets/alcaldia-medellin.svg';
+import creame from '../../../../assets/creame.jpg';
+import parqueE from '../../../../assets/parque-e.png';
+import camaraBogota from '../../../../assets/camara-bogota.png';
+import camaraMed from '../../../../assets/camara-medellin.png';
+import cisne from '../../../../assets/cisne-logo.png';
+import novira from '../../../../assets/novira-logo.svg';
 
 const allPartners = [
   alcaldiaMed,

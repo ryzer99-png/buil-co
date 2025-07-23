@@ -2,6 +2,8 @@
 export const ROUTES = {
   HOME: '/',
   ABOUTUS: '/us',
+  RegistrationForm: '/registrationForm',
+  UserProfiles: '/userProfiles',
   // For scrolling to sections within the home page
   HOME_SERVICES_ANCHOR: '/#services',
   HOME_PARTNERS_ANCHOR: '/#partners',

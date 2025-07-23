@@ -2,7 +2,7 @@ import './HeroSection.css';
 import React from 'react';
 import { IonButton } from '@ionic/react';
 import { useTranslation } from 'react-i18next';
-import { ROUTES } from '../../routes';
+import { ROUTES } from '../../../routes';
 
 
 const Hero: React.FC = () => {

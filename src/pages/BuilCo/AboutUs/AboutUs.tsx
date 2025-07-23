@@ -8,8 +8,8 @@ import { useTranslation } from 'react-i18next';
 import { IonCol, IonContent, IonGrid, IonPage, IonRow } from '@ionic/react';
 import ContactSection from '../ContactSection/ContactSection';
 import Footer from '../Footer/Footer';
-import ValuesSection from '../../components/ValuesSection';
-import WhoSection from '../../components/WhoSection';
+import ValuesSection from '../../../components/ValuesSection';
+import WhoSection from '../../../components/WhoSection';
 
 const AboutUs: React.FC = () => {
   const { t } = useTranslation();

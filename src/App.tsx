@@ -17,15 +17,17 @@ import './global.css';
 import React, { useState } from 'react';
 import { IonApp, IonContent, IonPage, setupIonicReact } from '@ionic/react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Contact from './pages/ContactSection/ContactSection';
-import WorkWithUs from './pages/WorkWithUsSection/WorkWithUsSection';
-import Footer from './pages/Footer/Footer';
-import Hero from './pages/HeroSection/HeroSection';
-import Header from './pages/MainHeader/MainHeader';
-import MenuMobile from './pages/MobileMenu/MobileMenu';
-import Partners from './pages/PartnetsSection/PartnersSection';
-import Services from './pages/ServicesSection/ServicesSection';
-import AboutUs from './pages/AboutUs/AboutUs';
+import Contact from './pages/BuilCo/ContactSection/ContactSection';
+import WorkWithUs from './pages/BuilCo/WorkWithUsSection/WorkWithUsSection';
+import Footer from './pages/BuilCo/Footer/Footer';
+import Hero from './pages/BuilCo/HeroSection/HeroSection';
+import Header from './pages/BuilCo/MainHeader/MainHeader';
+import MenuMobile from './pages/BuilCo/MobileMenu/MobileMenu';
+import Partners from './pages/BuilCo/PartnetsSection/PartnersSection';
+import Services from './pages/BuilCo/ServicesSection/ServicesSection';
+import AboutUs from './pages/BuilCo/AboutUs/AboutUs';
+import RegistrationForm from './pages/Minco/RegistrationForm/RegistratonForm';
+import UserProfiles  from './pages/Minco/UserProfiles/UserProfiles';
 import { ROUTES } from './routes';
 
 // Configura Ionic React
@@ -53,6 +55,12 @@ const App = () => {
               </Route>
               <Route path={ROUTES.ABOUTUS}>
                 <AboutUs />
+              </Route>
+              <Route path={ROUTES.RegistrationForm}>
+                <RegistrationForm />
+              </Route>
+              <Route path={ROUTES.UserProfiles}>
+                <UserProfiles />
               </Route>
             </Switch>
           </IonContent>

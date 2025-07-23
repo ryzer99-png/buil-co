@@ -3,13 +3,13 @@ import './MainHeader.css';
 import React from 'react';
 import { useHistory } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import '../../i18n';
-import DropdownButton from '../../components/DropdownButtonProps';
+import '../../../i18n';
+import DropdownButton from '../../../components/DropdownButtonProps';
 import {
   IonButton, IonButtons, IonHeader, IonTitle, IonToolbar
 } from '@ionic/react';
 
-import { ROUTES } from '../../routes';
+import { ROUTES } from '../../../routes';
 
 const Header: React.FC = () => {
   const { t, i18n } = useTranslation();
@@ -47,6 +47,7 @@ const Header: React.FC = () => {
             label={t('navigation.us')}
             options={[
               { label: t('us.title'), onClick: () => history.push(ROUTES.ABOUTUS) },
+              { label: "Minco", onClick: () => history.push(ROUTES.UserProfiles) },
             ]}
           />
           <IonButton href={ROUTES.HOME_CONTACT_ANCHOR} className="main-header-nav-btn">{t('navigation.contact')}</IonButton>
