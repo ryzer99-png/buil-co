@@ -1,5 +1,12 @@
 .features-card-title {
-  font-weight: 600 !important;
+  font-weight: bold !important;
+  font-size: 1.5rem !important;
+}
+
+.features-card-description {
+  font-size: 1rem !important;
+  margin-top: 0.5rem !important;
+  text-align: center !important;
 }
 
 .features-section {
@@ -39,7 +46,16 @@
 }
 
 .features-card:hover {
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 12px 32px rgba(184,142,74, 0.18);
+  transform: translateY(-6px) scale(1.03);
+  z-index: 2;
+}
+
+.features-card:hover .features-card-title {
+  text-decoration: underline;
+  text-underline-offset: 6px;
+  color: var(--ion-color-primary-gold);
+  transition: color 0.2s, text-decoration 0.2s;
 }
 
 .features-icon {

@@ -1,3 +1,85 @@
+
+/* Label ocupa 100% del ancho del card y se alinea con los inputs */
+.registration-label {
+  font-size: 1.08rem;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 0.25rem;
+  width: 100%;
+  display: block;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+.form-row {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 0.2rem;
+}
+
+/* Alinea el PhoneInput horizontalmente con el label */
+.registration-form .react-tel-input {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.registration-form .react-tel-input .form-control {
+  width: 100%;
+}
+/* Ionic Item override for registration form */
+.registration-item.ion-color, .registration-item {
+  --background: #fff !important;
+  background: #fff !important;
+  border-radius: 0.7rem;
+  box-shadow: none;
+  margin-bottom: 1rem;
+  padding-left: 0;
+  padding-right: 0;
+  border: none;
+}
+
+.registration-item .registration-label {
+  color: #222;
+  font-weight: 600;
+  font-size: 1rem;
+  margin-bottom: 0.3rem;
+}
+
+.registration-item .registration-input {
+  background: #fafafa !important;
+  color: #222 !important;
+  border: 1px solid #e0e0e0 !important;
+  border-radius: 0.7rem !important;
+  font-size: 1rem;
+  margin-bottom: 0;
+  padding: 0.7rem 1rem;
+  box-shadow: none;
+  text-align: left !important;
+}
+
+.registration-item .registration-input-disabled {
+  background: #f3f3f3 !important;
+  color: #bbb !important;
+  border-color: #e0e0e0 !important;
+}
+
+.registration-item .registration-input-error {
+  border: 2px solid #e53935 !important;
+  background: #fff6f6 !important;
+}
+
+.registration-error-text {
+  font-size: 0.95rem;
+  margin-top: 0.2rem;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+/* Highlight error fields */
+.registration-input-error {
+  border: 2px solid #e53935 !important;
+  background: #fff6f6;
+}
 /* Custom registration alert styles */
 .registration-alert-bg {
   position: fixed;
@@ -124,7 +206,7 @@
 }
 .registration-submit {
   color: #222;
-  background: #ffb300;
+  background:var(--ion-color-primary-gold);
   font-weight: 600;
   border: none;
   border-radius: 8px;
@@ -134,7 +216,7 @@
   transition: background 0.2s, color 0.2s;
 }
 .registration-submit:hover {
-  background: #ffa000;
+  background: var(--ion-color-secondary-gold);
   color: #fff;
 }
 /* Black background and margin top for registration-main */
@@ -222,14 +304,16 @@
 .registration-photo,
 .registration-form {
   background: #fff;
-  border-radius: 2rem;
-  box-shadow: 0 4px 24px #0002;
-  padding: 2.5rem 2rem 2rem 2rem;
-  max-width: 370px;
+  border-radius: 2.5rem;
+  box-shadow: 0 8px 40px #0004, 0 1.5px 0 #ffb30022;
+  padding: 3.5rem 2.5rem 2.5rem 2.5rem;
+  max-width: 480px;
+  min-width: 350px;
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 2rem;
 }
 .registration-photo {
   align-items: center;
@@ -271,21 +355,8 @@
   background: transparent;
   margin-right: 0.5rem;
 }
-.registration-form .form-row {
-  display: flex;
-  gap: 1rem;
-}
-.registration-form .form-row > div {
-  flex: 1;
-}
-.registration-form .recaptcha {
-  margin: 1.5rem 0;
-  width: 100%;
-  display: flex;
-  justify-content: flex-end;
-}
 .registration-form button[type="submit"] {
-  background: #ffb300;
+  background: var(--ion-color-primary-gold);
   color: #fff;
   font-weight: 700;
   border: none;
@@ -297,16 +368,5 @@
   transition: background 0.2s;
 }
 .registration-form button[type="submit"]:hover {
-  background: #ff9100;
-}
-@media (max-width: 1100px) {
-  .registration-content {
-    flex-direction: column;
-    align-items: center;
-  }
-  .registration-login,
-  .registration-photo,
-  .registration-form {
-    margin-top: 1.5rem;
-  }
+  background: var(--ion-color-secondary-gold);
 }

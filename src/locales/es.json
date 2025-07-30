@@ -5,28 +5,58 @@
     "whyText": "En Builco, no solo brindamos consultoría: nos convertimos en aliados estratégicos. Combinamos visión, experiencia multisectorial e innovación para ofrecer soluciones integrales que generan valor real. Acompañamos a nuestros clientes con un enfoque 360°, diseñando e implementando estrategias sostenibles y efectivas que impulsan su crecimiento. Donde otros ven problemas, nosotros vemos oportunidades de transformación.",
     "whoTitle": "¿Quiénes Somos?",
     "who": [
-      { "title": "Socios Estratégicos", "desc": "Builco impulsa el crecimiento empresarial en Colombia y LATAM." },
-      { "title": "Empresa BIC", "desc": "Comprometidos con impacto social y ambiental." },
-      { "title": "Equipo Multidisciplinario", "desc": "Expertos en diversos sectores y mercados." }
+      {
+        "title": "Socios Estratégicos",
+        "desc": "Builco impulsa el crecimiento empresarial en Colombia y LATAM."
+      },
+      {
+        "title": "Empresa BIC",
+        "desc": "Comprometidos con impacto social y ambiental."
+      },
+      {
+        "title": "Equipo Multidisciplinario",
+        "desc": "Expertos en diversos sectores y mercados."
+      }
     ],
     "finalText": "Construyendo puentes, impulsando el futuro y generando nuevas conexiones para elevar la misión de nuestros clientes y Partners.",
     "valuesTitle": "Valores Builco",
     "values": [
-      { "title": "Relaciones antes que transacciones", "desc": "Establecemos lazos duraderos y significativos, priorizando el valor mutuo sobre el beneficio inmediato." },
-      { "title": "Crecemos para que otros crezcan", "desc": "Nuestro éxito se mide por el impacto positivo y el crecimiento que generamos en nuestros clientes y aliados." },
-      { "title": "Autenticidad como principio", "desc": "Operamos con transparencia y honestidad, siendo fieles a nuestros valores y a quienes somos." },
-      { "title": "Valentía para reinventar", "desc": "Abrazamos el cambio y desafiamos el status quo, buscando nuevas y mejores formas de hacer las cosas." },
-      { "title": "Cultura Beta", "desc": "Estamos en constante aprendizaje y evolución, siempre abiertos a probar, adaptar y mejorar nuestros procesos." },
-      { "title": "Innovar y generar impacto", "desc": "Buscamos soluciones creativas y disruptivas que dejen una huella positiva y duradera en la sociedad." },
-      { "title": "Responsabilidad con el mañana", "desc": "Actuamos pensando en las futuras generaciones, comprometiéndonos con prácticas sostenibles y éticas." }
+      {
+        "title": "Relaciones antes que transacciones",
+        "desc": "Establecemos lazos duraderos y significativos, priorizando el valor mutuo sobre el beneficio inmediato."
+      },
+      {
+        "title": "Crecemos para que otros crezcan",
+        "desc": "Nuestro éxito se mide por el impacto positivo y el crecimiento que generamos en nuestros clientes y aliados."
+      },
+      {
+        "title": "Autenticidad como principio",
+        "desc": "Operamos con transparencia y honestidad, siendo fieles a nuestros valores y a quienes somos."
+      },
+      {
+        "title": "Valentía para reinventar",
+        "desc": "Abrazamos el cambio y desafiamos el status quo, buscando nuevas y mejores formas de hacer las cosas."
+      },
+      {
+        "title": "Cultura Beta",
+        "desc": "Estamos en constante aprendizaje y evolución, siempre abiertos a probar, adaptar y mejorar nuestros procesos."
+      },
+      {
+        "title": "Innovar y generar impacto",
+        "desc": "Buscamos soluciones creativas y disruptivas que dejen una huella positiva y duradera en la sociedad."
+      },
+      {
+        "title": "Responsabilidad con el mañana",
+        "desc": "Actuamos pensando en las futuras generaciones, comprometiéndonos con prácticas sostenibles y éticas."
+      }
     ]
   },
   "welcome": {
     "desc": "Tu plataforma confiable que conecta mineros y compradores de oro en toda Colombia",
     "btn": "Comenzar",
-    "subdesc": "Empoderando a la comunidad minera de oro de Colombia"
+    "subdesc": "Desbloquea el Potencial Minero Mundial."
   },
-    "userprofiles": {
+  "userprofiles": {
     "title": "Regístrate seleccionando el gremio al que perteneces",
     "productor": {
       "title": "Productor Minero",
@@ -51,7 +81,7 @@
   "clients": {
     "title": "Nuestros partners*"
   },
-    "registration": {
+  "registration": {
     "desc": "Solo te tomará unos minutos",
     "title": "Inicia sesión con",
     "google": "Continua con Google",
@@ -60,7 +90,7 @@
     "formTitle": "Formulario de registro",
     "accountType": "Tipo de Cuenta *",
     "mobile": "Número Móvil *",
-    "mobilePlaceholder": "Col (201) 555-0123",
+    "mobilePlaceholder": "(300) 555-0123",
     "firstName": "Nombres *",
     "lastName": "Apellidos *",
     "email": "Correo Electrónico",
@@ -68,14 +98,16 @@
     "confirmPassword": "Confirmar Contraseña *",
     "privacy": "He leído la política de privacidad",
     "submit": "Registrarme",
-       "validationTitle": "Su cuenta está en proceso de validación.",
+    "errorTitle": "Campos requeridos",
+    "errorRequired": "Por favor completa todos los campos obligatorios.",
+    "validationTitle": "Su cuenta está en proceso de validación.",
     "validationDesc": "Dentro de poco, le llegará un correo electrónico, una vez validemos su cuenta."
   },
   "hero": {
     "title": "Construyendo Conexiones Estratégicas",
-    "subtitle": "Impulsamos empresas con propósito a través de soluciones innovadoras, sostenibles y colaborativas. Conectamos talento, tecnología y visión estratégica para transformar desafíos en oportunidades y convertir a nuestros aliados en líderes de impacto en sus industrias.",
+    "subtitle": "Impulsamos empresas con propósito a través de <b>soluciones innovadoras, sostenibles y colaborativas</b>. Conectamos <b>talento, tecnología y visión estratégica</b> para transformar <b>desafíos</b> en <b>oportunidades</b> y convertir a nuestros aliados en líderes de impacto en sus industrias.",
     "ctaPrimary": "¡Descubre Más!",
-    "ctaSecondary": "Ver Partners"
+    "ctaSecondary": "En Donde Estamos"
   },
   "features": {
     "title": "Nuestros servicios",

@@ -5,26 +5,56 @@
     "whyText": "At Builco, we don't just provide consulting: we become strategic partners. We combine vision, multisectoral experience, and innovation to offer comprehensive solutions that create real value. We support our clients with a 360° approach, designing and implementing sustainable and effective strategies that drive their growth. Where others see problems, we see opportunities for transformation.",
     "whoTitle": "Who Are We?",
     "who": [
-      { "title": "Strategic Partners", "desc": "Builco drives business growth in Colombia and LATAM." },
-      { "title": "BIC Company", "desc": "Committed to social and environmental impact." },
-      { "title": "Multidisciplinary Team", "desc": "Experts in various sectors and markets." }
+      {
+        "title": "Strategic Partners",
+        "desc": "Builco drives business growth in Colombia and LATAM."
+      },
+      {
+        "title": "BIC Company",
+        "desc": "Committed to social and environmental impact."
+      },
+      {
+        "title": "Multidisciplinary Team",
+        "desc": "Experts in various sectors and markets."
+      }
     ],
     "finalText": "Building bridges, driving the future, and creating new connections to elevate the mission of our clients and partners.",
     "valuesTitle": "Builco Values",
     "values": [
-      { "title": "Relationships before transactions", "desc": "We build lasting and meaningful bonds, prioritizing mutual value over immediate gain." },
-      { "title": "We grow so others can grow", "desc": "Our success is measured by the positive impact and growth we generate for our clients and partners." },
-      { "title": "Authenticity as a principle", "desc": "We operate with transparency and honesty, staying true to our values and who we are." },
-      { "title": "Courage to reinvent", "desc": "We embrace change and challenge the status quo, seeking new and better ways to do things." },
-      { "title": "Beta Culture", "desc": "We are in constant learning and evolution, always open to testing, adapting, and improving our processes." },
-      { "title": "Innovate and create impact", "desc": "We seek creative and disruptive solutions that leave a positive and lasting mark on society." },
-      { "title": "Responsibility for tomorrow", "desc": "We act with future generations in mind, committing to sustainable and ethical practices." }
+      {
+        "title": "Relationships before transactions",
+        "desc": "We build lasting and meaningful bonds, prioritizing mutual value over immediate gain."
+      },
+      {
+        "title": "We grow so others can grow",
+        "desc": "Our success is measured by the positive impact and growth we generate for our clients and partners."
+      },
+      {
+        "title": "Authenticity as a principle",
+        "desc": "We operate with transparency and honesty, staying true to our values and who we are."
+      },
+      {
+        "title": "Courage to reinvent",
+        "desc": "We embrace change and challenge the status quo, seeking new and better ways to do things."
+      },
+      {
+        "title": "Beta Culture",
+        "desc": "We are in constant learning and evolution, always open to testing, adapting, and improving our processes."
+      },
+      {
+        "title": "Innovate and create impact",
+        "desc": "We seek creative and disruptive solutions that leave a positive and lasting mark on society."
+      },
+      {
+        "title": "Responsibility for tomorrow",
+        "desc": "We act with future generations in mind, committing to sustainable and ethical practices."
+      }
     ]
   },
-    "welcome": {
+  "welcome": {
     "desc": "Your trusted platform connecting gold miners and buyers across Colombia",
     "btn": "Get Started",
-    "subdesc": "Empowering Colombia's gold mining community"
+    "subdesc": "Unlock the World's Mining Potential."
   },
   "pageTitle": "Building Connections",
   "navigation": {
@@ -33,7 +63,7 @@
     "contact": "Contact",
     "workWithUs": "Book with us"
   },
-    "registration": {
+  "registration": {
     "desc": "It will only take a few minutes",
     "title": "Sign in with",
     "google": "Continue with Google",
@@ -42,18 +72,20 @@
     "formTitle": "Registration Form",
     "accountType": "Account Type *",
     "mobile": "Mobile Number *",
-    "mobilePlaceholder": "Col (201) 555-0123",
+    "mobilePlaceholder": " (300) 555-0123",
     "firstName": "First Name *",
+    "errorTitle": "Required fields",
+    "errorRequired": "Please complete all required fields.",
     "lastName": "Last Name *",
     "email": "Email",
     "password": "Password *",
     "confirmPassword": "Confirm Password *",
     "privacy": "I have read the privacy policy",
     "submit": "Register",
-      "validationTitle": "Your account is being validated.",
+    "validationTitle": "Your account is being validated.",
     "validationDesc": "Soon you will receive an email once we validate your account."
   },
-    "userprofiles": {
+  "userprofiles": {
     "title": "Register by selecting your sector",
     "productor": {
       "title": "Gold Producer",
@@ -73,9 +105,9 @@
   },
   "hero": {
     "title": "Building Strategic Connections",
-    "subtitle": "We empower purpose-driven companies through innovative, sustainable, and collaborative solutions. We connect talent, technology, and strategic vision to turn challenges into opportunities and make our partners industry leaders.",
+    "subtitle": "We empower purpose-driven companies through <b>innovative, sustainable, and collaborative solutions</b>. We connect <b>talent, technology, and strategic vision</b> to turn <b>challenges</b> into <b>opportunities</b> and make our partners industry leaders.",
     "ctaPrimary": "Discover More!",
-    "ctaSecondary": "See Partners"
+    "ctaSecondary": "Where We Are"
   },
   "features": {
     "title": "Our Services",

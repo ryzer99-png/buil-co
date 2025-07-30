@@ -1,10 +1,13 @@
 import './ServicesSection.css';
+
 import React from 'react';
-import { IonText, IonGrid, IonRow, IonCol } from '@ionic/react';
 import { useTranslation } from 'react-i18next';
+
+import { IonCol, IonGrid, IonRow, IonText } from '@ionic/react';
+
+import GenericCard from '../../../components/GenericCard';
 import GlobeIcon from '../../../icons/GlobeIcon';
 import GovermentIcon from '../../../icons/goverment.svg';
-import GenericCard from '../../../components/GenericCard';
 
 const Services: React.FC = () => {
   const { t } = useTranslation();
@@ -18,17 +21,18 @@ const Services: React.FC = () => {
           <IonRow>
             <IonCol size="12" sizeMd="6">
               <GenericCard
-                icon={<img className='img' src={GovermentIcon} alt="Gobierno y Gobernanza" />}
-                title={t('features.feature3.title')}
-                description={t('features.feature3.description')}
-                color=""
-              />
-            </IonCol>
-            <IonCol size="12" sizeMd="6">
-              <GenericCard
                 icon={<GlobeIcon />}
                 title={t('features.feature1.title')}
                 description={t('features.feature1.description')}
+                color=""
+              />
+
+            </IonCol>
+            <IonCol size="12" sizeMd="6">
+              <GenericCard
+                icon={<img className='img' src={GovermentIcon} alt="Gobierno y Gobernanza" />}
+                title={t('features.feature3.title')}
+                description={t('features.feature3.description')}
                 color=""
               />
             </IonCol>

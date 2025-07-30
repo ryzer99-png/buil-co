@@ -108,7 +108,14 @@
   font-weight: 700;
   color: var(--ion-color-dark-background);
   margin-bottom: 0.75rem;
+  transition: color 0.3s, text-shadow 0.3s;
 }
+
+.userprofiles-card:hover .userprofiles-card-title-content {
+  color: var(--ion-color-primary-gold);
+  text-shadow: 0 2px 12px #ffb30023, 0 1px 0 #fff;
+}
+
 .userprofiles-card-list {
   color: var(--ion-color-dark-gray);
   font-size: 1rem;
