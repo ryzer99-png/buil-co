@@ -13,7 +13,7 @@ const GenericCard: React.FC<GenericCardProps> = ({ icon, title, description, col
         </IonCardHeader>
       )}
       <IonCardContent style={contentStyle}>
-        <h3>{title}</h3>
+        <h3 className="features-card-title">{title}</h3>
         <p>{description}</p>
       </IonCardContent>
     </IonCard>

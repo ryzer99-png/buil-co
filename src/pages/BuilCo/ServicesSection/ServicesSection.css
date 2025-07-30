@@ -1,3 +1,7 @@
+.features-card-title {
+  font-weight: 600 !important;
+}
+
 .features-section {
   background: var(--ion-color-light-gray-100);
   padding-top: 1ch;
@@ -23,26 +27,12 @@
   margin-bottom: 3rem;
 }
 
-.features-grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 2rem;
-  justify-content: center;
-}
-
-@media (min-width: 768px) {
-  .features-grid {
-    grid-template-columns: repeat(2, 1fr);
-    justify-content: center;
-  }
-}
-
 .features-card {
   background: var(--ion-color-light-text);
   color: var(--ion-color-dark-background);
   border: 2px solid var(--ion-color-primary-gold);
   border-radius: 1rem;
-  box-shadow: 0 4px 16px rgba(184,142,74, 0.08); /* dorado con opacidad */
+  box-shadow: 0 4px 16px rgba(184,142,74, 0.08);
   padding: 2rem;
   text-align: center;
   transition: box-shadow 0.3s;
@@ -55,13 +45,6 @@
 .features-icon {
   color: var(--ion-color-accent-blue);
   margin-bottom: 1rem;
-}
-
-.features-card h3 {
-  font-size: 1.25rem;
-  color: var(--ion-color-dark-background);
-  font-weight: 600;
-  margin-bottom: 0.75rem;
 }
 
 .features-card p {

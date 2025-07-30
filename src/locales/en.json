@@ -21,12 +21,52 @@
       { "title": "Responsibility for tomorrow", "desc": "We act with future generations in mind, committing to sustainable and ethical practices." }
     ]
   },
+    "welcome": {
+    "desc": "Your trusted platform connecting gold miners and buyers across Colombia",
+    "btn": "Get Started",
+    "subdesc": "Empowering Colombia's gold mining community"
+  },
   "pageTitle": "Building Connections",
   "navigation": {
     "features": "Features",
     "us": "About Us",
     "contact": "Contact",
     "workWithUs": "Book with us"
+  },
+    "registration": {
+    "desc": "It will only take a few minutes",
+    "title": "Sign in with",
+    "google": "Continue with Google",
+    "photo": "Profile photo:",
+    "browse": "Browse...",
+    "formTitle": "Registration Form",
+    "accountType": "Account Type *",
+    "mobile": "Mobile Number *",
+    "mobilePlaceholder": "Col (201) 555-0123",
+    "firstName": "First Name *",
+    "lastName": "Last Name *",
+    "email": "Email",
+    "password": "Password *",
+    "confirmPassword": "Confirm Password *",
+    "privacy": "I have read the privacy policy",
+    "submit": "Register",
+      "validationTitle": "Your account is being validated.",
+    "validationDesc": "Soon you will receive an email once we validate your account."
+  },
+    "userprofiles": {
+    "title": "Register by selecting your sector",
+    "productor": {
+      "title": "Gold Producer",
+      "desc": "Quote and publish minerals for free, connecting directly with buyers and suppliers in Latin America through the 'Match' system."
+    },
+    "comercializador": {
+      "title": "Minerals/Mining Trader",
+      "desc": "Acquire minerals directly from reliable miners, publish purchase offers or mines for sale/investment, with notifications from the 'Match' system."
+    },
+    "proveedor": {
+      "title": "Products & Services Provider for the Mining Industry",
+      "desc": "Maximize your business and expand your reach by connecting with millions of miners in Latin America through this specialized ecosystem."
+    }
   },
   "clients": {
     "title": "Our partners*"

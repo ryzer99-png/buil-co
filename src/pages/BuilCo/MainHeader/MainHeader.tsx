@@ -47,7 +47,7 @@ const Header: React.FC = () => {
             label={t('navigation.us')}
             options={[
               { label: t('us.title'), onClick: () => history.push(ROUTES.ABOUTUS) },
-              { label: "Minco", onClick: () => history.push(ROUTES.UserProfiles) },
+              { label: "Mino", onClick: () => history.push(ROUTES.Welcome) },
             ]}
           />
           <IonButton href={ROUTES.HOME_CONTACT_ANCHOR} className="main-header-nav-btn">{t('navigation.contact')}</IonButton>

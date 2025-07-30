@@ -27,7 +27,8 @@ import Partners from './pages/BuilCo/PartnetsSection/PartnersSection';
 import Services from './pages/BuilCo/ServicesSection/ServicesSection';
 import AboutUs from './pages/BuilCo/AboutUs/AboutUs';
 import RegistrationForm from './pages/Minco/RegistrationForm/RegistratonForm';
-import UserProfiles  from './pages/Minco/UserProfiles/UserProfiles';
+import UserProfiles from './pages/Minco/UserProfiles/UserProfiles';
+import Welcome from './pages/Minco/Welcome/Welcome';
 import { ROUTES } from './routes';
 
 // Configura Ionic React
@@ -55,6 +56,9 @@ const App = () => {
               </Route>
               <Route path={ROUTES.ABOUTUS}>
                 <AboutUs />
+              </Route>
+              <Route path={ROUTES.Welcome}>
+                <Welcome />
               </Route>
               <Route path={ROUTES.RegistrationForm}>
                 <RegistrationForm />

@@ -1,3 +1,39 @@
+/* Custom registration alert styles */
+.registration-alert-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0,0,0,0.4);
+  z-index: 9999;
+}
+
+.registration-alert {
+  background: #222;
+  padding: 2.5rem 2rem;
+  border-radius: 3rem;
+  max-width: 500px;
+  text-align: center;
+  box-shadow: 0 4px 32px #0006;
+}
+
+.registration-alert-title {
+  color: #b88e4a;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  font-family: 'Open Sans', Arial, sans-serif;
+}
+
+.registration-alert-desc {
+  color: #fff;
+  font-size: 1.5rem;
+  font-family: 'Open Sans', Arial, sans-serif;
+}
 .registration-google-logo {
   height: 22px;
   width: 22px;

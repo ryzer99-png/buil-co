@@ -21,6 +21,26 @@
       { "title": "Responsabilidad con el mañana", "desc": "Actuamos pensando en las futuras generaciones, comprometiéndonos con prácticas sostenibles y éticas." }
     ]
   },
+  "welcome": {
+    "desc": "Tu plataforma confiable que conecta mineros y compradores de oro en toda Colombia",
+    "btn": "Comenzar",
+    "subdesc": "Empoderando a la comunidad minera de oro de Colombia"
+  },
+    "userprofiles": {
+    "title": "Regístrate seleccionando el gremio al que perteneces",
+    "productor": {
+      "title": "Productor Minero",
+      "desc": "Cotiza y publica minerales gratis conectando directamente con compradores y proveedores en Latinoamérica a través del sistema 'Match'."
+    },
+    "comercializador": {
+      "title": "Comercializador de Minerales y/o Minas",
+      "desc": "Adquiere minerales directamente de mineros confiables, publica ofertas de compra o minas en venta/inversión, con notificaciones del sistema 'Match'."
+    },
+    "proveedor": {
+      "title": "Proveedor de Productos & Servicios para la Industria Minera.",
+      "desc": "Maximiza tu negocio y expande tu alcance conectándote con millones de mineros en Latinoamérica a través de este ecosistema especializado."
+    }
+  },
   "pageTitle": "Building Connections",
   "navigation": {
     "features": "Características",
@@ -30,6 +50,26 @@
   },
   "clients": {
     "title": "Nuestros partners*"
+  },
+    "registration": {
+    "desc": "Solo te tomará unos minutos",
+    "title": "Inicia sesión con",
+    "google": "Continua con Google",
+    "photo": "Foto perfil:",
+    "browse": "Buscar...",
+    "formTitle": "Formulario de registro",
+    "accountType": "Tipo de Cuenta *",
+    "mobile": "Número Móvil *",
+    "mobilePlaceholder": "Col (201) 555-0123",
+    "firstName": "Nombres *",
+    "lastName": "Apellidos *",
+    "email": "Correo Electrónico",
+    "password": "Contraseña *",
+    "confirmPassword": "Confirmar Contraseña *",
+    "privacy": "He leído la política de privacidad",
+    "submit": "Registrarme",
+       "validationTitle": "Su cuenta está en proceso de validación.",
+    "validationDesc": "Dentro de poco, le llegará un correo electrónico, una vez validemos su cuenta."
   },
   "hero": {
     "title": "Construyendo Conexiones Estratégicas",
@@ -48,7 +88,7 @@
       "description": " Ofrecemos consultoría integral (desde estrategia hasta ejecución, incluyendo legal e inteligencia de datos) para generar impacto real y medible a nivel económico, social y ambiental."
     },
     "feature3": {
-      "title": "Gobierno y Gobernanza.",
+      "title": "Gobierno y Gobernanza",
       "description": "Acompañamiento en el trámite de iniciativas legislativas. Desde su creación hasta su expedición."
     }
   },

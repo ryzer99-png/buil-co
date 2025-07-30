@@ -3,47 +3,37 @@ import './UserProfiles.css';
 import ProfileCard from './ProfileCard';
 import { useHistory } from 'react-router-dom';
 import { ROUTES } from '../../../routes';
+import { useTranslation } from 'react-i18next';
 
 const UserProfiles: React.FC = () => {
   const history = useHistory();
+  const { t } = useTranslation();
 
   return (
     <div className="userprofiles-main font-[Inter]">
-      <h1 className="userprofiles-title">Regístrate seleccionando el gremio al que perteneces</h1>
+      <h1 className="userprofiles-title">{t('userprofiles.title')}</h1>
       <main>
         <div className="userprofiles-cards">
           <ProfileCard
-            imgSrc="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=facearea&w=400&h=400&q=80"
-            imgAlt="Productor Minero"
-            title="Productor Minero"
-            list={
-              <>
-                <li><b>Cotiza y publica minerales gratis</b> conectando directamente con compradores y proveedores en Latinoamérica a través del sistema "Match".</li>
-              </>
-            }
-            onClick={() => history.push({ pathname: ROUTES.RegistrationForm, state: { profile: 'Productor Minero' } })}
+            imgSrc="https://plus.unsplash.com/premium_photo-1664298475896-230e7b2c0ddf?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            imgAlt={t('userprofiles.productor.title')}
+            title={t('userprofiles.productor.title')}
+            list={<li>{t('userprofiles.productor.desc')}</li>}
+            onClick={() => history.push({ pathname: ROUTES.RegistrationForm, state: { profile: t('userprofiles.productor.title') } })}
           />
           <ProfileCard
-            imgSrc="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=facearea&w=400&h=400&q=80"
-            imgAlt="Comercializador de Minerales y/o Minas"
-            title="Comercializador de Minerales y/o Minas"
-            list={
-              <>
-                <li><b>Adquiere minerales directamente de mineros confiables</b> publica ofertas de compra o minas en venta/inversión, con notificaciones del sistema "Match".</li>
-              </>
-            }
-            onClick={() => history.push({ pathname: ROUTES.RegistrationForm, state: { profile: 'Comercializador de Minerales y/o Minas' } })}
+            imgSrc="https://images.unsplash.com/photo-1623365545467-d0f2c7ecd677?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            imgAlt={t('userprofiles.comercializador.title')}
+            title={t('userprofiles.comercializador.title')}
+            list={<li>{t('userprofiles.comercializador.desc')}</li>}
+            onClick={() => history.push({ pathname: ROUTES.RegistrationForm, state: { profile: t('userprofiles.comercializador.title') } })}
           />
           <ProfileCard
-            imgSrc="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=facearea&w=400&h=400&q=80"
-            imgAlt="Proveedor de Productos y Servicios"
-            title="Proveedor de Productos & Servicios para la Industria Minera."
-            list={
-              <>
-                <li><b>Maximiza tu negocio y expande tu alcance</b> conectándote con millones de mineros en Latinoamérica a través de este ecosistema especializado.</li>
-              </>
-            }
-            onClick={() => history.push({ pathname: ROUTES.RegistrationForm, state: { profile: 'Proveedor de Productos & Servicios para la Industria Minera.' } })}
+            imgSrc="https://images.unsplash.com/photo-1662251773377-104e93441427?q=80&w=1708&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            imgAlt={t('userprofiles.proveedor.title')}
+            title={t('userprofiles.proveedor.title')}
+            list={<li>{t('userprofiles.proveedor.desc')}</li>}
+            onClick={() => history.push({ pathname: ROUTES.RegistrationForm, state: { profile: t('userprofiles.proveedor.title') } })}
           />
         </div>
       </main>
