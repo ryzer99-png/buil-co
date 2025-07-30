@@ -13,7 +13,6 @@ import '@ionic/react/css/display.css';
 import './theme/variables.css';
 import './global.css';
 
-
 import React, { useState } from 'react';
 import { IonApp, IonContent, IonPage, setupIonicReact } from '@ionic/react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
@@ -38,13 +37,23 @@ setupIonicReact();
 const App = () => {
   const [showMobileMenu, setShowMobileMenu] = useState(false);
 
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
+  React.useEffect(() => {
+    const handleResize = () => setIsMobile(window.innerWidth < 768);
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
   return (
     <IonApp>
       <Router>
-        <MenuMobile setShowMobileMenu={setShowMobileMenu} />
         <IonPage id="main-content">
-          <IonContent>
+          {isMobile ? (
+           <MenuMobile setShowMobileMenu={setShowMobileMenu} />
+          ) : (
             <Header />
+          )}
+          <IonContent>
             <Switch>
               <Route exact path={ROUTES.HOME}>
                 <Hero />

@@ -59,20 +59,21 @@
   "userprofiles": {
     "title": "Regístrate seleccionando el gremio al que perteneces",
     "productor": {
-      "title": "Productor Minero",
-      "desc": "Cotiza y publica minerales gratis conectando directamente con compradores y proveedores en Latinoamérica a través del sistema 'Match'."
+      "title": "Comercializador Minero de Oro en Colombia",
+      "desc": "Para el <b>Comercializador Minero de Oro en Colombia,</b> Mino es la puerta de acceso a un mercado más transparente y seguro. Te conectamos con la demanda global y te ofrecemos las herramientas para optimizar tus transacciones, garantizando visibilidad y eficiencia en cada paso de tu cadena de valor."
     },
     "comercializador": {
-      "title": "Comercializador de Minerales y/o Minas",
-      "desc": "Adquiere minerales directamente de mineros confiables, publica ofertas de compra o minas en venta/inversión, con notificaciones del sistema 'Match'."
+      "title": "Empresa Interesada en el Suministro de Oro",
+      "desc": "Para la <b>Empresa Global Interesada en el Suministro de Oro,</b> Mino es tu fuente confiable y directa. Conectamos tu demanda estratégica con productores y comercializadores verificados en Colombia, simplificando la cadena de suministro desde el origen. Accede a oro de calidad con la eficiencia y la seguridad que tu operación internacional requiere."
     },
     "proveedor": {
-      "title": "Proveedor de Productos & Servicios para la Industria Minera.",
-      "desc": "Maximiza tu negocio y expande tu alcance conectándote con millones de mineros en Latinoamérica a través de este ecosistema especializado."
+      "title": "Proveedores de Productos y Servicios para la Industria Minera",
+      "desc": "Para los <b>Proveedores de Productos y Servicios para la Industria Minera,</b> Mino es tu plataforma estratégica para expandir tu alcance. Te conectamos con una red de operadores mineros calificados en búsqueda de soluciones especializadas, desde equipos de alta tecnología hasta consultoría ambiental. Optimiza tu visibilidad y genera nuevas oportunidades de negocio con la industria que mueve el mundo."
     }
   },
   "pageTitle": "Building Connections",
   "navigation": {
+    "home": "Inicio",
     "features": "Características",
     "us": "Nosotros",
     "contact": "Contacto",
